@@ -1,11 +1,11 @@
 
 | Category | Challenge Name              | Description                          | Technique                                              | Writeup |
 | -------- | --------------------------- | ------------------------------------ | ------------------------------------------------------ | ------- |
-| Web      | Login Attempt               | ![[Pasted image 20240324170442.png]] | SQL Injection                                          |         |
-| Web      | Out of Bounds               | ![[Pasted image 20240324170504.png]] | IDOR                                                   |         |
-| Web      | Crazy Cookie                | ![[Pasted image 20240324170518.png]] | Cookie Tampering                                       |         |
-| Web      | Extreme Security            | ![[Pasted image 20240324170532.png]] | Origin Header                                          |         |
-| Web      | Over 9000                   | ![[Pasted image 20240324170549.png]] | Variable value tampering                               |         |
-| Web      | Insecure Social Media Login | ![[Pasted image 20240324205248.png]] | Brute Force                                            |         |
-| Web         | Ask, and It Shall Be Given to You                            | ![[Pasted image 20240324220621.png]]                                     | Robots                                                       |         |
-| Pwn      | Buffet Overflow             | ![[Pasted image 20240324170356.png]] | Format String + Leak + Buffer Overflow + Return To Win |         |
+| Web      | Login Attempt               | ![[Pasted image 20240324170442.png]] | SQL Injection                                          |https://github.com/Jeetu855/CTFs/blob/master/TexSAWCTF2024/WEB/Login%20Attempt.md         |
+| Web      | Out of Bounds               | ![[Pasted image 20240324170504.png]] | IDOR                                                   |https://github.com/Jeetu855/CTFs/blob/master/TexSAWCTF2024/WEB/Out%20of%20Bounds.md         |
+| Web      | Crazy Cookie                | ![[Pasted image 20240324170518.png]] | Cookie Tampering                                       |https://github.com/Jeetu855/CTFs/blob/master/TexSAWCTF2024/WEB/Crazy%20Cookie.md         |
+| Web      | Extreme Security            | ![[Pasted image 20240324170532.png]] | Origin Header                                          |https://github.com/Jeetu855/CTFs/blob/master/TexSAWCTF2024/WEB/Extreme%20Security.md         |
+| Web      | Over 9000                   | ![[Pasted image 20240324170549.png]] | Variable value tampering                               |https://github.com/Jeetu855/CTFs/blob/master/TexSAWCTF2024/WEB/Over%209000.md         |
+| Web      | Insecure Social Media Login | ![[Pasted image 20240324205248.png]] | Brute Force                                            |https://github.com/Jeetu855/CTFs/blob/master/TexSAWCTF2024/WEB/Insecure%20Social%20Media%20Login.md         |
+| Web         | Ask, and It Shall Be Given to You                            | ![[Pasted image 20240324220621.png]]                                     | Robots                                                       |https://github.com/Jeetu855/CTFs/blob/master/TexSAWCTF2024/WEB/Ask%2C%20and%20It%20Shall%20Be%20Given%20to%20You.md         |
+| Pwn      | Buffet Overflow             | ![[Pasted image 20240324170356.png]] | Format String + Leak + Buffer Overflow + Return To Win |https://github.com/Jeetu855/CTFs/blob/master/TexSAWCTF2024/Pwn/Buffet%20Overflow/Solution.md         |
