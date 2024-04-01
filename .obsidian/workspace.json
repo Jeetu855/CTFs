@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TexSAWCTF2024/README.md",
+                "file": "UTCTF/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ce52aeb3bc8dbff6",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TexSAWCTF2024/README.md",
+                "file": "UTCTF/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "TexSAWCTF2024/README.md",
+                "file": "UTCTF/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "TexSAWCTF2024/README.md"
+                "file": "UTCTF/README.md"
               }
             }
           },
@@ -158,8 +159,23 @@
   },
   "active": "93259427531cb6fd",
   "lastOpenFiles": [
-    "TexSAWCTF2024/WEB/Ask, and It Shall Be Given to You.md",
+    "UTCTF/Web/Easy Mergers v0.1/merger.zip",
+    "UTCTF/Web/Schrödinger.md",
+    "UTCTF/README.md",
+    "UTCTF/Web/Attachments/Pasted image 20240401162856.png",
+    "UTCTF/Web/Attachments/Pasted image 20240401162352.png",
+    "UTCTF/Web/Off-Brand Cookie Clicker.md",
+    "UTCTF/Web/Easy Mergers v0.1/Solution.md",
+    "UTCTF/Web/Easy Mergers v0.1",
+    "UTCTF/Web/Easy Mergers v0.1.md",
+    "UTCTF/Web/Attachments",
+    "UTCTF/Web",
+    "UTCTF/Attachments/Pasted image 20240401160050.png",
+    "UTCTF/Attachments/Pasted image 20240401160036.png",
+    "UTCTF/Attachments/Pasted image 20240401160020.png",
+    "UTCTF/Attachments",
     "TexSAWCTF2024/README.md",
+    "TexSAWCTF2024/WEB/Ask, and It Shall Be Given to You.md",
     "TexSAWCTF2024/Attachments/Pasted image 20240324220621.png",
     "TexSAWCTF2024/WEB/Insecure Social Media Login.md",
     "TexSAWCTF2024/Attachments/Pasted image 20240324205248.png",
@@ -177,13 +193,8 @@
     "TexSAWCTF2024/WEB/Login Attempt.md",
     "TexSAWCTF2024/Attachments/Pasted image 20240324170549.png",
     "TexSAWCTF2024/Attachments/Pasted image 20240324170532.png",
-    "TexSAWCTF2024/Attachments/Pasted image 20240324170518.png",
-    "TexSAWCTF2024/Attachments/Pasted image 20240324170504.png",
-    "TexSAWCTF2024/Attachments/Pasted image 20240324170442.png",
-    "TexSAWCTF2024/Attachments/Pasted image 20240324170356.png",
     "TexSAWCTF2024/Attachments",
     "Welcome.md",
-    "TexSAWCTF2024/WEB",
-    "TexSAWCTF2024"
+    "TexSAWCTF2024/WEB"
   ]
 }
