@@ -1,7 +1,7 @@
-| Category     | Challenge Name      | Descripiton | Technique                                   | Huntik Writeup | Alternative Solution |     |
+| Category     | Challenge Name      | Descripiton | Technique                                   | Writeup | Alternative Solution |     |
 | ------------ | ------------------- | ----------- | ------------------------------------------- | -------------- | -------------------- | --- |
-| Pwn | Delulu              |             | Variable Overwriting                        |                |                      |     |
-| Pwn | Pet Companion       |             | Return to Libc                              |                |                      |     |
-| Pwn | Rocket Blaster      |             | Return to win with parameters               |                |                      |     |
-| Pwn | Sound of Silence    |             | Buffer Overflow to Call System with /bin/sh |                |                      |     |
-| Pwn | Writing on The Wall |             | Buffer Overflow and Exploit Strmcmp         |                |                      |     |
+| Pwn | Delulu              |             | Variable Overwriting                        | https://github.com/Jeetu855/CTFs/blob/master/HTBCyberApocalypse2024/Pwn/delulu/exploit.py               |                      |     |
+| Pwn | Pet Companion       |             | Return to Libc                              | https://github.com/Jeetu855/CTFs/blob/master/HTBCyberApocalypse2024/Pwn/petCompanion/exploit.py                |                      |     |
+| Pwn | Rocket Blaster      |             | Return to win with parameters               | https://github.com/Jeetu855/CTFs/blob/master/HTBCyberApocalypse2024/Pwn/rocketBlaster/exploit.py                |                      |     |
+| Pwn | Sound of Silence    |             | Buffer Overflow to Call System with /bin/sh | https://github.com/Jeetu855/CTFs/blob/master/HTBCyberApocalypse2024/Pwn/SoundOfSilence/exploit.py               |                      |     |
+| Pwn | Writing on The Wall |             | Buffer Overflow and Exploit Strmcmp         | https://github.com/Jeetu855/CTFs/blob/master/HTBCyberApocalypse2024/Pwn/Writing_on_the_Wall/exploit.py               |                      |     |

