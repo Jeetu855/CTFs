@@ -1,0 +1,6 @@
+| Category |  Challenge Name   | Description                          | Technique                        | Writeup                                                                                              |
+| :------: | :---------------: | ------------------------------------ | -------------------------------- | ---------------------------------------------------------------------------------------------------- |
+|   Web    |    BrailleDB-1    | ![[Pasted image 20240407222523.png]] | Local Storage Variable Tampering | [Solution](https://github.com/Jeetu855/CTFs/blob/master/UTCTF/Web/Off-Brand%20Cookie%20Clicker.md)   |
+|   Web    | UnderConstruction | ![[Pasted image 20240407222539.png]] | Zip upload symlink exploit       | [Solution](https://github.com/Jeetu855/CTFs/blob/master/UTCTF/Web/Schr%C3%B6dinger.md)               |
+|   Pwn    |  Beginner Pwn 1   | ![[Pasted image 20240407222604.png]] | Javascript Prototype Pollution   | [Solution](https://github.com/Jeetu855/CTFs/blob/master/UTCTF/Web/Easy%20Mergers%20v0.1/Solution.md) |
+|   Pwn    |  Beginner Pwn 2   | ![[Pasted image 20240407222626.png]] | Javascript Prototype Pollution   | [Solution](https://github.com/Jeetu855/CTFs/blob/master/UTCTF/Web/Easy%20Mergers%20v0.1/Solution.md) |
