@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SwampCTF/README.md",
+                "file": "SwampCTF/Web/Solutions.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SwampCTF/README.md",
+                "file": "SwampCTF/Web/Solutions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SwampCTF/README.md",
+                "file": "SwampCTF/Web/Solutions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SwampCTF/README.md"
+                "file": "SwampCTF/Web/Solutions.md"
               }
             }
           },
@@ -158,13 +158,13 @@
   },
   "active": "93259427531cb6fd",
   "lastOpenFiles": [
+    "SwampCTF/README.md",
+    "SwampCTF/Web/Solutions.md",
     "SwampCTF/Pwn/Beginner Pwn 2/Solution.md",
     "SwampCTF/Pwn/Beginner Pwn 1/Solution.md",
-    "SwampCTF/Web/Solutions.md",
     "SwampCTF/Pwn/Beginner Pwn 2/hello",
     "SwampCTF/Pwn/Beginner Pwn 1/main.c",
     "SwampCTF/Pwn/Beginner Pwn 1/system_terminal",
-    "SwampCTF/README.md",
     "SwampCTF/Pwn/Beginner Pwn 2",
     "SwampCTF/Pwn/Beginner Pwn 1/Attachments/Pasted image 20240407233957.png",
     "SwampCTF/Pwn/Beginner Pwn 1/Attachments",

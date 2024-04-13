@@ -183,7 +183,7 @@ This step is where it gets interesting, these is a command called `into outfile`
 
 This is what the official documentation says
 
-``SELECT INTO OUTFILE` writes the resulting rows to a file, and allows the use of column and row terminators to specify a particular output format.`
+``SELECT INTO OUTFILE` writes the resulting rows to a file, and allows the use of column and row terminators to specify a particular output format.`
 
 You can read more about it on [Into Outfile](https://mariadb.com/kb/en/select-into-outfile/)
 
@@ -226,3 +226,25 @@ And we get the flag
 ![[Pasted image 20240407232639.png]]
 
 **_flag : swampCTF{ch4ining_Vu1ns_I5_Pr3tty_C0Ol}_**
+
+---
+
+#### MemeGenerator
+
+- Looking around the website the most interesting features are to create a meme, and to load in a custom image
+
+- When you load an image from a URL it makes a POST request to loadImages, with the payload `{imageURL: INPUT}`
+        - Something like this is potentially vulnerable to SSRF
+
+- If you set the URL to be \https://example.com, the response returned is what you would get if you make a request to \https://example.com directly
+
+- Trying \http://localhost:5000 to see what the developers may be exposing locally, you get the error "Your request was blocked for security reasons
+        - A cheat sheet like this has resources on how to bypass this filter: \https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Request%20Forgery/README.md
+
+- Trying \http://127.1:5000 bypasses the filter, but we see the same landing page
+
+- Doing a dirb on the website reveals that there is a page /admin, that returns a 403, but maybe not on localhost
+
+- Doing SSRF with \http://127.1:5000/admin gives you the security error again
+
+- The payload \http://127.1:5000/%61dmin byasses this payload and you get the flag
