@@ -1,7 +1,5 @@
-
-
-| Category | Challenge Name | Description | Technique | Writeup |
-| :--: | :--: | ---- | ---- | ---- |
-| Web | Off-Brand Cookie Clicker | ![[Pasted image 20240401160020.png]] | Local Storage Variable Tampering | [Solution](https://github.com/Jeetu855/CTFs/blob/master/UTCTF/Web/Off-Brand%20Cookie%20Clicker.md) |
-| Web | Schrödinger | ![[Pasted image 20240401160036.png]] | Zip upload symlink exploit |[Solution](https://github.com/Jeetu855/CTFs/blob/master/UTCTF/Web/Schr%C3%B6dinger.md)  |
-| Web | Easy Mergers v0.1 | ![[Pasted image 20240401160050.png]] | Javascript Prototype Pollution |[Solution](https://github.com/Jeetu855/CTFs/blob/master/UTCTF/Web/Easy%20Mergers%20v0.1/Solution.md)  |
+| Category |      Challenge Name      | Description                    | Technique                        | Writeup                                                                                              |
+| :------: | :----------------------: | ------------------------------ | -------------------------------- | ---------------------------------------------------------------------------------------------------- |
+|   Web    | Off-Brand Cookie Clicker | ![alt text](Attachments/1.png) | Local Storage Variable Tampering | [Solution](https://github.com/Jeetu855/CTFs/blob/master/UTCTF/Web/Off-Brand%20Cookie%20Clicker.md)   |
+|   Web    |       Schrödinger        | ![alt text](Attachments/2.png) | Zip upload symlink exploit       | [Solution](https://github.com/Jeetu855/CTFs/blob/master/UTCTF/Web/Schr%C3%B6dinger.md)               |
+|   Web    |    Easy Mergers v0.1     | ![alt text](Attachments/3.png) | Javascript Prototype Pollution   | [Solution](https://github.com/Jeetu855/CTFs/blob/master/UTCTF/Web/Easy%20Mergers%20v0.1/Solution.md) |

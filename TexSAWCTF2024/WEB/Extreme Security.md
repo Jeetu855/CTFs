@@ -1,11 +1,10 @@
-
-On the web page it is written that 
+On the web page it is written that
 
 "We are so secure that we only allow requests from our own origin to access secret data. Talk about some serious security!"
 
-![[Pasted image 20240324182625.png]]
+![alt text](Attachments/1.png)
 
-In burp, capture the request, send it to repeater and add the HTTP Origin header 
+In burp, capture the request, send it to repeater and add the HTTP Origin header
 
 ```http
 GET / HTTP/1.1
@@ -30,4 +29,3 @@ Origin: https://texsaw2024.com
 And we get the flag
 
 flag : texsaw{s7t_y0ur_or7g7n}
-

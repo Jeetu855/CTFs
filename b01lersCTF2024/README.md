@@ -1,0 +1,4 @@
+| Category |    Challenge Name    | Description                          | Technique     | Writeup                                                                                                      |
+| :------: | :------------------: | ------------------------------------ | ------------- | ------------------------------------------------------------------------------------------------------------ |
+|   Web    |      b01ler-ad       | ![alt text](Attachments/image.png)   | Blind XSS     | [Solution](https://github.com/Jeetu855/CTFs/blob/master/b01lersCTF2024/Web/b01ler-ad/Solution.md)            |
+|   Pwn    | shall-we-play-a-game | ![alt text](Attachments/image-1.png) | Return to Win | [Solution](https://github.com/Jeetu855/CTFs/blob/master/b01lersCTF2024/Pwn/shall-we-play-a-game/Solution.md) |

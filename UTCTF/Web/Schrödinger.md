@@ -1,4 +1,3 @@
-
 We are allowed to upload zip files
 I am going to explain how zip symlinks exploit
 
@@ -24,7 +23,7 @@ ln -s /etc/passwd etc
 
 This create a symlink for /etc/passwd file and the file that points to it is called its symlink in this case its name is `etc`
 
-![[Pasted image 20240401162352.png]]
+![alt text](Attachments/1.png)
 
 This is how it looks like if you run the `ls -la` command
 
@@ -34,28 +33,29 @@ The thing is when you use `zip` to compress files and directories, it includes t
 However, if you want to include the files pointed to by symbolic links in the zip archive, you have to use the `--symlinks`
 
 ```sh
-zip -r --symlinks file.zip etc 
+zip -r --symlinks file.zip etc
 ```
 
 I am naming the zip file as file.zip
 
 Now upload this file and observe the results
 
-![[Pasted image 20240401162856.png]]
+![alt text](Attachments/2.png)
 
-It prints out the /etc/passwd file 
+It prints out the /etc/passwd file
 
 From the description we know that the flag is in /home/user/flag.txt
 We get the username from /etc/passwd file as `copenhagen`
 
 So first create a directory named `home` , inside it create a directory named `copenhagen` and inside this directory create a file named `flag.txt`
 
-Now run 
+Now run
+
 ```sh
 ln -s /home/copenhagen/flag.txt flag
 ```
 
-A thing to note here is that when you try to press tab to auto-complete it wont because we are doing `/home/copenhagen` but we dont actually have a user named `copenhagen` on our machine . Your  default `home` directory will contain directories for user on your machine. But think about the target system for a second. I says that flag is in `/home/copenhagen/flag.txt` , so from that point of view, what we are doing is correct.
+A thing to note here is that when you try to press tab to auto-complete it wont because we are doing `/home/copenhagen` but we dont actually have a user named `copenhagen` on our machine . Your default `home` directory will contain directories for user on your machine. But think about the target system for a second. I says that flag is in `/home/copenhagen/flag.txt` , so from that point of view, what we are doing is correct.
 
 Now zip archive this symlink that we created for `flag.txt`
 
